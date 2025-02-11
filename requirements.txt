@@ -1,0 +1,9 @@
+numpy
+matplotlib
+pandas
+tk
+python-tk
+nltk
+scipy
+scikit-learn
+torch
