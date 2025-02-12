@@ -1,5 +1,5 @@
 # TEAM:
 
-Karim Rochd
-Ahmed Nazar
-Rasul Alakbarli
+- Karim Rochd,
+- Ahmed Nazar,
+- Rasul Alakbarli
