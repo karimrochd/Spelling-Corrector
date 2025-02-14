@@ -166,3 +166,89 @@ if __name__ == "__main__":
             print(f"True word: {ex['true_word']}")
             print(f"Context: {ex['context_used']}")
             print()
+
+
+
+'''
+Advanced Spelling Corrector Evaluation Results
+--------------------------------------------------
+Training set size: 24091 pairs
+Test set size: 16062 pairs
+Corpus files used: 5
+Correct predictions: 6099
+Total test examples: 16062
+Accuracy: 37.97%
+
+Model Statistics:
+--------------------------------------------------
+Vocabulary size: 22438
+Known misspellings: 23061
+
+Enabled features:
+- context_aware: ✓
+- ngram_model: ✓
+- phonetic_matching: ✓
+- word_embeddings: ✓
+
+Sample of incorrect predictions:
+--------------------------------------------------
+Misspelling: eniceation
+Predicted (no context): enucleation
+Predicted (with context): enucleation
+True word: initiation
+Context: your further [WORD] a like
+
+Misspelling: scouce
+Predicted (no context): six
+Predicted (with context): six
+True word: saucer
+Context: a small [WORD] of milk
+
+Misspelling: garle
+Predicted (no context): girl
+Predicted (with context): girl
+True word: gallery
+Context: modern picture [WORD] and every
+
+Misspelling: lifd 1
+Predicted (no context): left
+Predicted (with context): left
+True word: lived
+Context: diver who [WORD] in the
+
+Misspelling: traing 1
+Predicted (no context): during
+Predicted (with context): during
+True word: trying
+Context: a little [WORD] to do
+
+Misspelling: magnifas
+Predicted (no context): magnifas
+Predicted (with context): magnifas
+True word: magnificent
+Context: calm contented [WORD] proud he
+
+Misspelling: contributers
+Predicted (no context): contributed
+Predicted (with context): contributed
+True word: contributors
+Context: [WORD]
+
+Misspelling: strawes
+Predicted (no context): stories
+Predicted (with context): stories
+True word: straws
+Context: [WORD]
+
+Misspelling: orcatstr
+Predicted (no context): orcatstr
+Predicted (with context): orcatstr
+True word: orchestra
+Context: my own [WORD] but shouldn
+
+Misspelling: tund
+Predicted (no context): tongue
+Predicted (with context): tongue
+True word: turned
+Context: life he [WORD] out but
+'''
