@@ -1,7 +1,7 @@
 import json
 import random
 from pathlib import Path
-from v2 import AdvancedSpellingCorrector
+from advanced_statistical_method import AdvancedSpellingCorrector
 
 def evaluate_advanced_spelling_corrector(dictionary_path, corpus_dir, test_ratio=0.4, context_aware=True):
     """
